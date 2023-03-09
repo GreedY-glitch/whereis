@@ -41,7 +41,7 @@ int main(int argc, char** argv)
 
 
 
-        /* Перебор всех директорий, начиная от папки home */
+        /* Перебор всех директорий, начиная от папки /usr */
         for (auto const& dir_entry :
             fs::recursive_directory_iterator("/usr"))
         {
